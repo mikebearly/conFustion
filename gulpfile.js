@@ -27,7 +27,7 @@ gulp.task('browser-sync',function(){
         './*.html',
         './css/*.css',
         './js/*.js',
-        './img/*.{png,jpg,gif,jpeg'
+        './img/*.{png,jpg,gif,jpeg}'
     ];
 
     browserSync.init(files,  {
